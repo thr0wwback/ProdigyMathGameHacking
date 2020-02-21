@@ -1,0 +1,20 @@
+PIXI.game.prodigy.debugMisc.setLevel(100)
+//Max level
+PIXI.game.prodigy.player.modifiers.damage=Infinity;PIXI.game.prodigy.player.modifiers.maxHearts=Infinity;PIXI.game.prodigy.player.heal(Infinity)
+//God mode
+PIXI.game.prodigy.debugMisc.getAllPets();
+//Infinite wheel of fortune
+IXI.game.prodigy.player.backpack.data.item.push({"N":Infinity,"ID":130});
+//Membership until you refresh
+PIXI.game.prodigy.player.tt=true
+© 2020 GitHub, Inc.
+// Gives you all buddies.
+PIXI.game.prodigy.player.backpack.data.follow=[]x = PIXI.game.state.states.Boot._gameData.followfor (i in x) { PIXI.game.prodigy.player.backpack.data.follow[i] = {"ID": x[i].ID, "N": 1}}
+//Unlocks all gear
+PIXI.game.prodigy.player.backpack.data.outfit=[]x = PIXI.game.state.states.Boot._gameData.outfitfor (i in x) { PIXI.game.prodigy.player.backpack.data.outfit[i] = {"ID": x[i].ID, "N": 1}}PIXI.game.prodigy.player.backpack.data.hat=[]x = PIXI.game.state.states.Boot._gameData.hatfor (i in x) { PIXI.game.prodigy.player.backpack.data.hat[i] = {"ID": x[i].ID, "N": 1}}PIXI.game.prodigy.player.backpack.data.boots=[]x = PIXI.game.state.states.Boot._gameData.bootsfor (i in x) { PIXI.game.prodigy.player.backpack.data.boots[i] = {"ID": x[i].ID, "N": 1}}
+// Gives player all relics.
+PIXI.game.prodigy.player.backpack.data.spellRelic=[]x = PIXI.game.state.states.Boot._gameData.spellRelicfor (i in x) { PIXI.game.prodigy.player.backpack.data.spellRelic[i] = {"ID": x[i].ID, "N": 1}}
+// Levels all pets to level 100.
+for (let PetLoopTest = 0; PetLoopTest < PIXI.game.prodigy.player.kennel.data.length; PetLoopTest++) { PIXI.game.prodigy.player.kennel.data[PetLoopTest].level=100 };
+//Gives you 99 conjure cubes anymore will make you crash
+PIXI.game.prodigy.debugMisc.getCubes(99)PIXI.game.prodigy.create.conjureCubeButton()
